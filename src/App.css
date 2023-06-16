@@ -1,0 +1,110 @@
+body {
+  background-color: #8e7cf7;
+  font-family: "Rajdhani", sans-serif;
+}
+/* SEARCH BAR */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8e7cf7;
+  height: 8rem;
+}
+.search-container form {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  margin: 0rem 2rem;
+  font-size: xx-large;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  background-color: #aca0f3;
+  color: #3d346d;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  outline: none;
+}
+.search-container button {
+  font-size: x-large;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #aca0f3;
+  color: #3d346d;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+}
+.search-container button:hover {
+  background-color: #674ef5;
+}
+/* ANIMES */
+.animes-container {
+  width: 100%;
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 3rem;
+  background-color: #9a8af7;
+}
+.anime-item {
+  padding: 0.5rem 0.5rem;
+  position: relative;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin: 1rem;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: x-large;
+  color: #ffffff;
+  width: 300px;
+}
+.animes-container img {
+  width: 300px;
+  height: 350px;
+  opacity: 0.8;
+  object-fit: cover;
+}
+.animes-container img:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 100px 25px #4e3cb4;
+}
+/* PAGINATION */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem;
+  background-color: #8e7cf7;
+}
+.pagination {
+  width: fit-content;
+  max-width: 500px;
+  background: #523cd1;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+.pagination-container button {
+  cursor: pointer;
+  border: none;
+  border-radius: 1.5rem;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  background-color: #523cd1;
+}
+.pagination-btns .active {
+  background: #735fe6;
+}
